@@ -12,14 +12,16 @@
 /**************/
 /* BASE RULES */
 /**************/
-
 html {
   font-size: 100%;
 }
 
+head
+<link href="https://fonts.googleapis.com/css?family=Baloo+Tamma" rel="stylesheet">
+
 body {
 	background: $white;
-  font: 18px/1.4 $impact;
+  font: 18px/1.4 $Helvetica;
   color: $darkGray;
 }
 
