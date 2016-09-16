@@ -3,10 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
-<body>
+<div About>
 An IT Student
 
 ### More Information
 
 An IT Student learning aboiut GitHub
-</body>
+</div>
