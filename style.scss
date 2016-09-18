@@ -277,6 +277,7 @@ nav {
 table,td {
 	border: 1px solid black;
 	border-radius: 5px;
+	border-style: dashed;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
