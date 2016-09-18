@@ -8,9 +8,9 @@ permalink: /about/
 <link href="https://fonts.googleapis.com/css?family=Tillana" rel="stylesheet">
 </head>
 
-An IT Student
+<p style="color:white;">An IT Student</p>
 
 ### More Information
 
-An IT Student learning about GitHub
+<p style="color:white;">An IT Student learning about GitHub</p>
 
