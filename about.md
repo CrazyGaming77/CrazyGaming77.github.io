@@ -8,5 +8,5 @@ An IT Student
 
 ### More Information
 
-An IT Student learning aboiut GitHub
+An IT Student learning about GitHub
 
