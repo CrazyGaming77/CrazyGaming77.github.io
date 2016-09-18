@@ -5,6 +5,7 @@ title: You're up and running!
 <head>
 <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Tillana" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
 </head>
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
