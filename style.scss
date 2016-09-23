@@ -294,6 +294,9 @@ table,td {
 th{
 	padding: 10px;
 }
+td {
+	background-color: rgba(255,255,255,0.5);
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
