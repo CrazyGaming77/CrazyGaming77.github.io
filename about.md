@@ -9,9 +9,9 @@ permalink: /about/
 <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 </head>
 
-<p style="color:white;">An IT Student</p>
+<p style="color:black;">An IT Student</p>
 
 ### More Information
 
-<p style="color:white;">An IT Student learning about GitHub</p>
-
+<p style="color:black;">An IT Student learning about GitHub</p>
+<br />
