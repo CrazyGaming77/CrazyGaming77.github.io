@@ -290,6 +290,7 @@ table, td, th {
 	border-right: 0px;
 	border-top: 0px;
 	border-bottom: 0px;
+	box-shadow: 3px 3px 5px #888888;
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
