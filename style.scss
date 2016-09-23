@@ -224,7 +224,7 @@ nav {
   font-family: 'Architects Daughter', cursive;
   font-size: 18px;
   font-weight: bold;
-  text-align: middle;
+  vertical-align: middle;
 
   @include mobile {
     float: none;
