@@ -285,11 +285,8 @@ table, td, th {
 	border-style: dashed;
 	padding: 10px;
 	background-color: white;
-	border-radius: 25px;
-	border-left: 0px;
-	border-right: 0px;
-	border-top: 0px;
-	border-bottom: 0px;
+}
+table {
 	box-shadow: 3px 3px 5px #888888;
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
