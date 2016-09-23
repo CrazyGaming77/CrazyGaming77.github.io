@@ -158,16 +158,13 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
 }
 
 .masthead {
-  padding: 0px 0;
   border-bottom: 1px solid black;
   background-color: black;
   width: 100%;
   float: left;
-  margin: 0 0 lem 0;
 
   @include mobile {
     text-align: center;
