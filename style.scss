@@ -290,6 +290,12 @@ table,td {
 th{
 	padding: 10px;
 }
+.Blog {
+	margin-top: 35px;
+}
+.About {
+	margin-top: 35px;
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
