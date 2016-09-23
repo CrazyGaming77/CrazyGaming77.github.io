@@ -223,10 +223,7 @@ nav {
   font-weight: bold;
   padding: 35px 0px;
   margin-right: 10px;
- &:hover, &:active {
-    color: #404040;
-    background-color: green;
-  }
+ 
   @include mobile {
     float: none;
     margin-top: 50px;
