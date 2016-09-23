@@ -221,10 +221,10 @@ img {
 
 nav {
   float: right;
-  margin-top: 50px; // @TODO: Vertically middle align
   font-family: 'Architects Daughter', cursive;
   font-size: 18px;
   font-weight: bold;
+  text-align: middle;
 
   @include mobile {
     float: none;
