@@ -20,11 +20,15 @@ body {
   background-image: url("http://img.walls321.com/images1/4afoe1sdu0w.jpg");
   background-size: 1920px 800px;
   background-attachment: fixed;
-	 -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
+	     background-position-x: initial;
+    background-position-y: initial;
+    background-size: 100% 100%;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
   font: 18px/1.4;
   color: $darkGray;
   font-family: 'David Libre', serif;
