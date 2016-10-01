@@ -184,7 +184,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 25px;
   }
 }
 
@@ -254,7 +254,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid black;
 }
 
 .posts > .post:last-child {
