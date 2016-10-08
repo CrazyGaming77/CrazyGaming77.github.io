@@ -224,7 +224,7 @@ img {
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: 
   color: rgb(102, 0, 0);
   font-size: 20px;
   font-weight: bold;
@@ -243,9 +243,7 @@ nav {
   margin-right: 20px;
   color: rgb(102, 0, 0);
 	
- &:hover, &:active {
-    color: #000;
-}
+ 
   @include mobile {
     float: none;
     margin-top: 50px;
