@@ -239,12 +239,11 @@ img {
 nav {
   float: right;
   font-family: 'Titillium Web', sans-serif;
-  font-size: 45px;
+  font-size: 25px;
   font-weight: bold;
   padding: 45px 0px;
-  color: white;
+  color: black;
   text-transform: bold;
-  background-color: black;
 	
  
   @include mobile {
