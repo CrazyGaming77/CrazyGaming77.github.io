@@ -242,9 +242,11 @@ nav {
   font-size: 25px;
   font-weight: bold;
   padding: 45px 0px;
-  color: black;
+  color: white;
   text-transform: bold;
-  margin-right: 20px;	
+  margin-right: 20px;
+  background-color: #333;
+  border-radius: 25px;
 	
  
   @include mobile {
