@@ -241,12 +241,11 @@ nav {
   font-family: 'Titillium Web', sans-serif;
   font-size: 25px;
   font-weight: bold;
-  padding: 45px 0px;
   color: white;
   text-transform: bold;
-  margin-right: 20px;
+  margin-right: 0px;
   background-color: #333;
-  border-radius: 25px;
+  border-radius: 10px;
 	
  
   @include mobile {
