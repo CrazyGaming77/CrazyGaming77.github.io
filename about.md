@@ -8,6 +8,7 @@ permalink: /about/
 <td><p style="color:black;">An IT Student</p></td>
 </tr>
 </table>
+
 ### More Information
 
 <table>
