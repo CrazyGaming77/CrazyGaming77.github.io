@@ -9,7 +9,7 @@ permalink: /about/
 </tr>
 </table>
 
-### More Information
+<h3>More Information</h3>
 
 <table>
 <tr>
