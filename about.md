@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<table>
+<table style="width: 100%;">
 <tr>
 <td><p style="color:black;">An IT Student</p></td>
 </tr>
