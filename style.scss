@@ -418,6 +418,7 @@ table {
 	max-width: 1000px;
 	position: relative;
         margin: 0;
+	top: 0px;
 }
 
 text {
@@ -477,6 +478,7 @@ text {
 .container1 {
 	background-color: white;
 	width: 100%;
+	top: 0px;
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
