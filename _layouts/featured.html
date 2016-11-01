@@ -39,22 +39,57 @@
                 </header>  
           </div> 
     
-   <div class="slider-holder">
-        <span id="slider-image-1"></span>
-        <span id="slider-image-2"></span>
-        <span id="slider-image-3"></span>
-        <div class="image-holder">
-            <img src="http://wp.patheos.com.s3.amazonaws.com/blogs/faithwalkers/files/2013/03/bigstock-Test-word-on-white-keyboard-27134336.jpg" class="slider-image" />
-            <img src="http://www.velior.ru/wp-content/uploads/2009/05/Test-Computer-Key-by-Stuart-Miles.jpg" class="slider-image" />
-            <img src="https://blog.xenproject.org/wp-content/uploads/2014/10/Testing.jpg" class="slider-image" />
-        </div>
-        <div class="button-holder">
-            <a href="#slider-image-1" class="slider-change"></a>
-            <a href="#slider-image-2" class="slider-change"></a>
-            <a href="#slider-image-3" class="slider-change"></a>
-        </div>
-    </div>
+ <div class="slideshow-container">
 
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img_nature_wide.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img_fjords_wide.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+    
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+    
           <div id="main" role="main" class="container">
       {{ content }}
     </div>
