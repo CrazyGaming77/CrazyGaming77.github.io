@@ -473,6 +473,10 @@ text {
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+.container1 {
+	background-color: white;
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
