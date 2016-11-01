@@ -481,7 +481,8 @@ text {
 	background-color: white;
 	width: 100%;
 	top: 0px;
-	padding: 0;
+	padding: 0px;
+	margin: 0px;
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
