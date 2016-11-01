@@ -33,6 +33,7 @@ body {
   color: $darkGray;
   font-family: 'David Libre', serif;
   margin-top: 140px;
+  transition: background-color .5s;
 }
 
 .container {
