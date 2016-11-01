@@ -278,7 +278,7 @@ img {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: #b3b3b3;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -300,6 +300,7 @@ img {
 	color: #818181;
 	display: block;
 	transition: 0.3s;
+	margin-right: 20px;
 }
 
 .sidenav a:hover, .offcanvas a:focus {
