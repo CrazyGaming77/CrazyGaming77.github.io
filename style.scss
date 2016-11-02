@@ -98,8 +98,43 @@ ul, ol {
 }
 
 ul {
-  list-style-type: disc;
+  list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	margin: 0 auto;
+	max-width: 74px;
+	padding: 0 10px;
+	width: 100%;
 }
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: auto;
+  max-width: 720px;
+  border-radius: 15px;
+  padding-left: 8px;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+ul.img-list li {
+ // padding-top: 15px;
+  //padding-left: 20px;
+  display: inline-block;
+  height: auto;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 704px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgba(0, 0,0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+}
+
 
 ol {
   list-style-type: decimal;
@@ -323,6 +358,16 @@ table {
 &:hover {
 	background-color: #bfbfbf; 
 }
+}
+
+.title1 {
+	font-size: 18px; 
+	width: 100%;
+	text-align: center;
+	border-radius: 10px;
+	padding: 25px;
+	box-shadow: 0px 3px 10px  #000;
+	background-color: rgba(255, 255, 255,0.5);
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
