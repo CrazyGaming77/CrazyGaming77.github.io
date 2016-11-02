@@ -2,11 +2,12 @@
 layout: default
 ---
 <div class="posts">
-  <ul class="img-list">
+  {% for post in site.posts %}
+  <ul>
       <article class="post">  
      <li>
        <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-6/';">
-         <tr>
+<tr>
 <th><strong>Super mega spreadsheet of organisation.</strong></th>
 </tr>
 <tr>
@@ -18,8 +19,7 @@ layout: default
 
       <article class="post">
         <li>
-          
-   <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-5/';">
+          <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-5/';">
 <tr>
 <th><strong>Youtube videos? No problem!</strong></th>
 </tr>
@@ -81,5 +81,6 @@ layout: default
 </table>
       </li>
     </article>
-  </ul>
+
+  {% endfor %}
 </div>
