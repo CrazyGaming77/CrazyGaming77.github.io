@@ -230,6 +230,7 @@ img {
   position: fixed;
   width: 100%;
   top: 0px;
+  z-index: 4;
 }
 
 .masthead {
@@ -237,7 +238,7 @@ img {
   background-color: white;
   width: 100%;
   box-shadow: 3px 3px 5px #000;
-
+  z-index: 4;
   @include mobile {
     text-align: center;
   }
