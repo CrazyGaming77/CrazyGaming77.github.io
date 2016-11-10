@@ -436,13 +436,13 @@ table {
 }
 
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
   height: 275;
   margin-top: 100px;
   background-color: white;
   width: 100%;
+  box-shadow: 0px 3px 10px  #000
 }
 
 .prev, .next {
