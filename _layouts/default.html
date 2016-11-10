@@ -4,7 +4,6 @@
     <link href="http://downloadgamesfree.mobi/favicon.png" rel="shortcut icon">
     <title>Jodby Berundi</title>
 
-    {% include meta.html %}
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -36,10 +35,8 @@
             <a href="{{ site.baseurl }}/about">About</a>
               </div>
           <span class="nav-button" onclick="openNav()">&#9776;</span>
-                </header>  
-          </div> 
-     
-<script>
+          
+          <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
@@ -47,6 +44,15 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
               </script> 
+
+                </header>  
+          </div> 
+      
+          <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+   
+    
 
     {% include analytics.html %}
   </body>
