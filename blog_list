@@ -1,0 +1,99 @@
+---
+layout: default
+---
+<div class="posts">
+ <ul class="img-list">
+   
+    <article class="post">  
+     <li>
+       <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-7/';">
+<tr>
+<th><strong>Holy Slideshow Batman!</strong></th>
+</tr>
+<tr>
+<th><strong>Friday 21st October 2016</strong></th>
+</tr>
+</table>
+        </li>
+    </article>
+    
+      <article class="post">  
+     <li>
+       <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-6/';">
+<tr>
+<th><strong>Super mega spreadsheet of organisation.</strong></th>
+</tr>
+<tr>
+<th><strong>Friday 14th October 2016</strong></th>
+</tr>
+</table>
+        </li>
+    </article>
+
+      <article class="post">
+        <li>
+          <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-5/';">
+<tr>
+<th><strong>Youtube videos? No problem!</strong></th>
+</tr>
+<tr>
+<th><strong>Friday 7th October 2016</strong></th>
+</tr>
+</table>
+        </li>
+  </article>
+    
+   <article class="posts">
+<li>
+  <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-4/';">
+<tr>
+<th><strong>Spreadhseets, spreadsheets everywhere!</strong></th>
+</tr>
+<tr>
+<th><strong>Friday 30th September 2016</strong></th>
+</tr>
+</table>
+     </li>
+    </article>
+    
+    <article class="post">
+      <li>
+        <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-3/';">
+<tr>
+<th><strong>My blog sure looks a lot nicer now.</strong></th>
+</tr>
+<tr>
+<th><strong>Friday 23rd September 2016</strong></th>
+</tr>
+</table>
+      </li>
+    </article>
+    
+    <article class="post">
+      <li>
+        <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-2/';">
+<tr>
+<th><strong>Ok, I think I'm getting the hang of it.</strong></th>
+</tr>
+<tr>
+<th><strong>Friday 16th September 2016</strong></th>
+</tr>
+</table>
+      </li>
+    </article>
+    
+    <article class="post">
+      <li>
+        <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week1/';">
+<tr>
+<th><strong>Testing, testing...is this thing on?</strong></th>
+</tr>
+<tr>
+<th><strong>Friday 9th September 2016</strong></th>
+</tr>
+</table>
+      </li>
+    </article>
+   
+  </ul>
+</div>
