@@ -3,6 +3,8 @@ layout: about
 title: About
 permalink: /about/
 ---
+<h1>About</h1>
+
 <table style="width: 100%;">
 <tr>
 <td><p style="color:black;">An IT Student</p></td>
