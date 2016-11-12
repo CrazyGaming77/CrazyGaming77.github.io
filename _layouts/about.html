@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="http://downloadgamesfree.mobi/favicon.png" rel="shortcut icon">
+    <title>Jodby Berundi</title>
 
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Tillana" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    
+    <div class="wrapper-masthead">
+        <header class="masthead clearfix">
+          <img src="{{ site.avatar }}"  class="site-avatar"/>
+           
+          <div class="site-info">
+            <h1 class="site-name">{{ site.name }}</h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+          
+           <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="{{ site.baseurl }}/">Home</a>
+             <a href="{{ site.baseurl }}/blog_list">Blog List</a>
+            <a href="{{ site.baseurl }}/about">About</a>         
+              </div>
+          <span class="nav-button" onclick="openNav()">&#9776;</span>
+          
+          <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+              </script> 
+
+                </header>  
+          </div> 
+      
+          <div id="main" role="main" class="about-container">
+      {{ content }}
+    </div>
+   
+    
+
+    {% include analytics.html %}
+  </body>
+</html>
