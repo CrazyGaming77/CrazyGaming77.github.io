@@ -153,12 +153,16 @@ img {
 .wrapper-masthead {
   margin-bottom: 50px;
   width: 100%;
-  max-width:none;
+  position: fixed;
+  top: 0px;
+  z-index: 4;
 }
 
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+  width: 100%;
+  z-index: 4;
 
   @include mobile {
     text-align: center;
