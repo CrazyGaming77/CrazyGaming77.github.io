@@ -289,7 +289,7 @@ img {
 .site-name {
   margin-top: 10px;
   color: white;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 35px;
   letter-spacing: 1px;
@@ -300,6 +300,7 @@ img {
   color: white;
   font-size: 20px;
   font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 
   @include mobile {
     margin: 3px 0;
